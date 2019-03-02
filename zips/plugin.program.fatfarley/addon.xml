@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.fatfarley" name="[B][COLOR dodgerblue]FatFarley[/COLOR][/B] Repository" version="1.2" provider-name="fatfarley">
-	<extension point="xbmc.addon.repository" name="[B][COLOR dodgerblue]FatFarley[/COLOR][/B] Repository">
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/fatfarley/repo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/fatfarley/repo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/fatfarley/repo/master/zips/</datadir>
-        </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[B][COLOR dodgerblue]FatFarley[/COLOR][/B] Repository</summary>
-		<description>[B]Best Kodi Builds[/B] for Amazon Firestick / Fire TV / Fire Cube, Android, Nvidia Shield TV, Windows / Mac / Linux Computers, Xbox One, iPhone, iPad and many more.[CR][COLOR blue]This is still beta![CR][COLOR aqua]So NO bitching![/COLOR]</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
+<addon id="plugin.program.fatfarley" name="[B][COLOR dodgerblue]FatFarley[/COLOR][/B] Wizard" version="1.2" provider-name="FatFarley">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR dodgerblue]FatFarley[/COLOR] Wizard</summary>
+    <description lang="en">[COLOR dodgerblue]FatFarley[/COLOR] Wizard offers many maintenance features, selective add-on data saving, and automated build installs. [CR][COLOR blue]This is still beta![CR][COLOR aqua]So no bitching, ASSHOLES![/COLOR]</description>
+    <platform>all</platform>
+  </extension>
 </addon>
