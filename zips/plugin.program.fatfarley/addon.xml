@@ -11,5 +11,12 @@
     <summary lang="en">[COLOR dodgerblue]FatFarley[/COLOR] Wizard</summary>
     <description lang="en">[COLOR dodgerblue]FatFarley[/COLOR] Wizard offers many maintenance features, selective add-on data saving, and automated build installs. [CR][COLOR blue]This is still beta![CR][COLOR aqua]So no bitching, ASSHOLES![/COLOR]</description>
     <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshots/1.png</screenshot>
+        <screenshot>resources/screenshots/2.png</screenshot>
+        <screenshot>resources/screenshots/3.png</screenshot>
+    </assets>
   </extension>
 </addon>
