@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.fatfarley" name="[B][COLOR dodgerblue]FatFarley[/COLOR][/B] Wizard" version="1.3" provider-name="FatFarley">
+<addon id="plugin.program.fatfarley" name="[B][COLOR dodgerblue]FatFarley[/COLOR][/B] Wizard" version="1.4" provider-name="FatFarley">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
